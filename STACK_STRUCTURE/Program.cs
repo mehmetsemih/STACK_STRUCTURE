@@ -37,26 +37,16 @@
 
             }
 
+            //TRANSFER TO ARRAY
+            var dizi = Karakter_yığını.ToArray();
+
             //REMOVAL PROCESS WITH WHILE LOOP
             while (Karakter_yığını.Count() > 0)
             {
                
                 Console.WriteLine($"{Karakter_yığını.Pop()}" +" ifadesi yığından çıkartıldı.");
             }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
 
             Console.ReadLine();
         }
