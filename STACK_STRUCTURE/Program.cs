@@ -4,9 +4,18 @@
     {
         static void Main(string[] args)
         {
-            // STACK DESCRIBING 
+            // STACK DESCRIBING
+          
+
+            
+           
+            Console.ReadKey();
+
+           
 
             var Karakter_yığını=new Stack<char>();
+           
+           
 
             //ADDING
             Karakter_yığını.Push('A');
